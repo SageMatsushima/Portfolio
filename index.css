@@ -1,4 +1,10 @@
-* {
+html{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
 	font-family: "Exo 2";
 	background-color: rgb(231, 210, 245);
 	color: black;
@@ -6,82 +12,120 @@
 	margin-right: 3.5vw;
 	text-align: left;
 	font-size: 1.5vw;
+	height: 100%;
 }
 
-.side {
-	width: 78vw;
-	height: 30vw;
-}
-
-.img1,
-.img2 {
-	margin: 0%;
-	width: 37vw;
-	height: 25vw;
-	display: inline-block;
-	margin-top: 2vw;
-	padding: 0%;
-}
-.one {
-	width: 37vw;
-	height: 25vw;
-	margin: 0%;
-	padding: 0%;
+/* .name{
 	float: left;
-}
-.two {
-	width: 39vw;
-	height: 25vw;
-	margin: 0%;
-	margin-left: 2vw;
-	float: left;
-}
+} */
 
-.link {
+.nav {
+	background-color: #d37144;
+	height: 5vw;
+	overflow: hidden;
+  }
+  
+
+  /* Style the links inside the navigation bar */
+  .nav a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 2.5vw;
+	padding-left: 2.5vw;
+  }
+  
+  /* Change the color of links on hover */
+  .nav a:hover {
+	background-color: #ac552c;
+	color: black;
+  }
+  
+
+
+.content{
+	background-color: #724caf;
+	display: inline-flex;
+	text-align: center;
 	margin-top: 3vw;
+	width: 75vw;
+	height: 32vw;
+}
+.image{
+	background-color: #af4ca2;
+	align-items: center;
+	margin-left: 4vw;
+	width: 25vw;
+	height: 32vw;
+	display: inline-flex;
+	margin-left: 0%;
+	margin-right: 0%;
+  }
+
+.about{
+	background-color: #a5af4c;
+	text-align: left;
+	padding-top: 0%;
+	width: 40vw;
+	margin-left: 5vw;
+  }
+
+h2{
+	height: 5vw;
+	font-size: 3.5vw;
+	padding-left: 4vw;
+	margin-bottom: 0;
+}
+
+p{
+	height: 20vw;
+	font-size: 2vw;
+	padding-left: 4vw;
+	padding-right: 2vw;
+}
+
+.btn-group{
+	background-color: #af4f4c;
+	margin: 3vw;
+	height: 15vw;
+}
+
+  .btn-group button {
+	background-color: #d37144; /* Green background */
+	border: 1px solid green; /* Green border */
+	color: white; /* White text */
+	padding: 10px 24px; /* Some padding */
+	cursor: pointer; /* Pointer/hand icon */
+	float: left; /* Float the buttons side by side */
+	margin-left: 2vw;
+	width: 13vw;
+	height: 10vw;
 	text-align: center;
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+	content: "";
+	clear: both;
+	display: table;
+	
+  }
+  
+  .btn-group button:not(:last-child) {
+	border-right: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+	background-color: #ac552c;
+  }
+
+footer{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 5vw;
 }
 
-h1 {
-	text-align: center;
-	font-size: 3vw;
-	padding: 2.5vw;
-	padding-bottom: 0%;
-}
-
-h2 {
-	text-align: center;
-	padding-top: 10%;
-	font-size: 2.25vw;
-}
-
-h3 {
-	padding-top: 2%;
-	font-size: 1.5vw;
-}
-
-h4 {
-	font-size: 1.25vw;
-}
-
-.context {
-	padding-top: 5%;
-}
-
-.info {
-	display: block;
-	margin-left: 8%;
-}
-
-.graphic {
-	width: 65vw;
-	height: 90vw;
-}
-
-.ending {
-	padding-bottom: 15vh;
-}
-
-.takeaways {
-	padding-top: 5vw;
-}
