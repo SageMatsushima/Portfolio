@@ -1,0 +1,192 @@
+html{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: "Exo 2";
+	background-color: #E6FFFA;
+	color: black;
+	margin-left: 3.5vw;
+	margin-right: 3.5vw;
+	text-align: left;
+	font-size: 1.5vw;
+	height: 100%;
+	width: auto;
+	position: relative;
+}
+
+.name{
+	margin-right: 20vw;
+}
+
+.nav {
+	/* background-color: #71D4C0; */
+	height: 4.75vw;
+	overflow: hidden;
+  }
+  
+  .nav a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 2.5vw;
+	margin-left: 2.5vw;
+  }
+  
+  .nav a:hover {
+	background-color: #EDBFAF;
+	color: black;
+  }
+
+.content{
+	/* background-color: #724caf; */
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	margin-top: 3vw;
+	width: 75vw;
+	height: 40vw;
+}
+
+h2{
+	height: 5vw;
+	font-size: 3.5vw;
+	padding-left: 4vw;
+	margin-top: 1vw;
+	margin-bottom: 0;
+}
+
+p{
+	height: 20vw;
+	font-size: 2vw;
+	padding-left: 4vw;
+	padding-right: 2vw;
+}
+
+mark{
+	background-color: #EDBFAF;
+}
+
+
+footer{
+	background-color: #E3815F;
+	margin: 0;
+	margin-top: 5vw;
+	padding: 0;
+	width: 100%;
+	height: 8vw;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.5vw;
+	padding: 2.5vw;
+	padding-bottom: 0%;
+}
+
+h2 {
+	text-align: center;
+	padding-top: 10%;
+	font-size: 2vw;
+}
+
+.Research {
+	text-align: center;
+	padding-top: 5%;
+}
+
+/* h3 {
+	padding-top: 0%;
+} */
+
+.image1 {
+	width: 45vw;
+	height: 35vh;
+	padding-top: 2vh;
+	margin-left: 3vw;
+	margin-right: 0.01vw;
+}
+
+.image2,
+.image3 {
+	padding-top: 2vh;
+	margin-left: 3vw;
+	margin-right: 0.01vw;
+	width: 32vw;
+	height: 70vh;
+}
+
+.research{
+	width: auto;
+	height: 38vw;
+}
+
+.interview{
+	width: auto;
+	height: 80vw;
+}
+
+.storyboard {
+	padding-top: 2vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80vw;
+	height: 190vh;
+}
+
+.list {
+	text-align: left;
+	font-size: 135%;
+	list-style-position: inside;
+}
+
+p {
+	text-align: left;
+	font-size: 135%;
+}
+
+.imagebox2,
+.sketch,
+.image {
+	display: inline-flex;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.imagebox {
+	display: inline-flex;
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-bottom: 10vh;
+}
+
+.text {
+	text-align: left;
+	margin-left: 1px;
+	padding-top: 0%;
+	margin-top: 0%;
+}
+
+.sketchtext {
+	text-align: left;
+	margin-left: 0%;
+	padding-top: 0%;
+}
+/* 
+.context {
+	padding-top: 5%;
+} */
+
+.ending {
+	padding-bottom: 15vh;
+}
+
+.covid {
+	text-align: center;
+	padding-bottom: 5vh;
+}

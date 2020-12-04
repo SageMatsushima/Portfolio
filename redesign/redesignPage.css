@@ -1,0 +1,197 @@
+* {
+	font-family: "Exo 2";
+	background-color: rgb(231, 210, 245);
+	color: black;
+	margin-left: 3.5vw;
+	margin-right: 3.5vw;
+}
+
+.img {
+	background-color: azure;
+	width: 50vw;
+	height: 30vw;
+}
+
+.graphic {
+	margin-top: 2vw;
+	width: 50vw;
+	height: 30vw;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+}
+
+.link {
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3vw;
+	padding: 2.5vw;
+	padding-bottom: 0%;
+}
+
+h2 {
+	text-align: center;
+	padding-top: 10%;
+	font-size: 2.25vw;
+}
+
+.Research {
+	text-align: center;
+	padding-top: 5%;
+}
+
+h3 {
+	padding-top: 2%;
+	font-size: 2vw;
+}
+
+p {
+	text-align: left;
+	font-size: 1.5vw;
+}
+
+.context {
+	padding-top: 5%;
+}
+
+.ending {
+	padding-bottom: 15vh;
+}
+
+.wireframe {
+	width: 100%;
+	height: 100%;
+}
+
+.dwf {
+	display: inline-flex;
+	width: 78vw;
+	height: 35vw;
+}
+
+.dimage {
+	display: inline-block;
+	padding-left: 0%;
+	margin-left: 1%;
+	margin-right: 0%;
+}
+
+.dwfi {
+	width: 33vw;
+	height: 75vh;
+	margin-left: 0%;
+}
+
+.dtext {
+	display: inline-block;
+	word-wrap: break-word;
+	width: 53vw;
+	height: 75vh;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.twf {
+	display: inline-flex;
+	width: 78vw;
+	height: 35vw;
+	padding-left: 0%;
+}
+
+.timage {
+	display: inline-block;
+	padding-left: 0%;
+	margin-right: 0%;
+}
+
+.both {
+	width: 30vw;
+	height: 75vh;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.ptext {
+	display: inline-block;
+	word-wrap: break-word;
+	width: 50vw;
+	height: 75vh;
+}
+
+.p {
+	margin: 0%;
+	margin-left: 16vw;
+}
+
+.t {
+	float: right;
+	padding: 0%;
+	margin: 0%;
+	margin-right: 30%;
+	margin-top: 5vw;
+}
+
+.d {
+	float: right;
+	padding: 0%;
+	margin: 0%;
+	margin-right: 30%;
+}
+
+.ttext {
+	width: 35vw;
+	margin-top: 1vw;
+	padding-right: 17vw;
+}
+
+.mini {
+	text-align: left;
+	padding-top: 5vw;
+}
+
+.dhfi {
+	display: inline-block;
+	width: 32vw;
+	height: 47vw;
+	margin: 0%;
+}
+
+.p.text {
+	width: 30vw;
+	height: 20vw;
+	margin-top: 1vw;
+	padding-right: 17vw;
+}
+
+.ddtext {
+	display: inline-block;
+	word-wrap: break-word;
+	width: 53vw;
+	height: 75vh;
+	margin-left: 5%;
+	margin-right: 0%;
+}
+
+.endtext {
+	margin-top: 3vw;
+}
+
+.style-guide {
+	margin: 0%;
+	width: 80vw;
+	height: 48vw;
+}
+
+.final {
+	font-size: 3vw;
+	text-align: center;
+}
+
+.takeaways {
+	padding-top: 5vw;
+}

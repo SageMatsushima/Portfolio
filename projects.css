@@ -27,7 +27,7 @@ body {
 	overflow: hidden;
   }
   
-  .nav a {
+.nav a {
 	float: left;
 	color: black;
 	text-align: center;
@@ -35,22 +35,13 @@ body {
 	text-decoration: none;
 	font-size: 2.5vw;
 	margin-left: 2.5vw;
-  }
+}
   
-  .nav a:hover {
+.nav a:hover {
 	background-color: #EDBFAF;
 	color: black;
-  }
-
-.content{
-	/* background-color: #724caf; */
-	display: flex;
-	justify-content: center;
-	/* align-items: center; */
-	margin-top: 3vw;
-	width: 75vw;
-	height: 20vw;
 }
+
 .image{
 	background-color: #af4ca2;
 	border-radius: 1vw;
@@ -64,20 +55,17 @@ body {
 	margin-top: 3vw;
   }
 
-.about{
-	/* background-color: #a5af4c; */
-	text-align: left;
-	padding-top: 0%;
-	width: 40vw;
-	margin-left: 5vw;
-	height: 20vw;
-  }
+.title{
+    text-align: center;
+    margin-top: 4vw;
+    font-size: 3.5vw;
+}
 
-h2{
+h3{
 	height: 5vw;
-	font-size: 3.5vw;
+	font-size: 2vw;
 	padding-left: 4vw;
-	margin-top: 1vw;
+	margin-top: 4vw;
 	margin-bottom: 0;
 }
 
@@ -93,31 +81,32 @@ mark{
 }
 
 .btn-group{
-	/* background-color: #af4f4c; */
-	/* float: right; */
-	margin: 2.5vw;
-	margin-left: 27vw;
+     margin: 2.5vw;
+	/*margin-left: 27vw;
 	height: 7vw;
-	width: 50vw;
+	width: 50vw; */
 }
 
   .btn-group button {
 	background-color: #71D4C0;
 	border: none;
-	border-radius: 10vw;
+	border-radius: .5vw;
 	color: white;
 	cursor: pointer;
 	margin-left: 3.5vw;
 	font-size: 1.5vw;
-	width: 8vw;
-	height: 8vw;
-	text-align: center;
+	width: 15vw;
+	height: 20vw;
+    text-align: center;
+    background-image: none;
   }
   
   .btn-group button:hover {
-	background-color: #EDBFAF;
+    background-color: #EDBFAF;
+    background-image: none;
   }
 
+  
 footer{
 	background-color: #E3815F;
 	margin: 0;
