@@ -8,13 +8,13 @@ body {
 	font-family: "Exo 2";
 	background-color: #E6FFFA;
 	color: black;
-	margin-left: 3.5vw;
-	margin-right: 3.5vw;
+	margin-left: 4vw;
+	margin-right: 7vw;
 	text-align: left;
-	font-size: 1.5vw;
-	height: 100%;
+	font-size: 1.15vw;
+	height: auto;
 	width: auto;
-	position: relative;
+	position: absolute;
 }
 
 .name{
@@ -43,10 +43,8 @@ body {
   }
 
 .content{
-	/* background-color: #724caf; */
 	display: flex;
 	justify-content: center;
-	/* align-items: center; */
 	margin-top: 3vw;
 	width: 75vw;
 	height: 40vw;
@@ -67,6 +65,14 @@ p{
 	padding-right: 2vw;
 }
 
+.tools{
+	float: right;
+}
+
+.assets{
+	height: 5vw;
+}
+
 mark{
 	background-color: #EDBFAF;
 }
@@ -75,6 +81,8 @@ mark{
 footer{
 	background-color: #E3815F;
 	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
 	margin-top: 5vw;
 	padding: 0;
 	width: 100%;
@@ -85,13 +93,13 @@ h1 {
 	text-align: center;
 	font-size: 2.5vw;
 	padding: 2.5vw;
-	padding-bottom: 0%;
+	padding-bottom: 3vw;
 }
 
 h2 {
 	text-align: center;
 	padding-top: 10%;
-	font-size: 2vw;
+	/* font-size: 2vw; */
 }
 
 .Research {
@@ -99,16 +107,17 @@ h2 {
 	padding-top: 5%;
 }
 
-/* h3 {
-	padding-top: 0%;
-} */
+h3 {
+	padding-left: 4vw;
+}
 
 .image1 {
 	width: 45vw;
-	height: 35vh;
+	height: 20vw;
+	padding-left: 0%;
 	padding-top: 2vh;
 	margin-left: 3vw;
-	margin-right: 0.01vw;
+	/* margin-right: 1vw; */
 }
 
 .image2,
@@ -117,7 +126,7 @@ h2 {
 	margin-left: 3vw;
 	margin-right: 0.01vw;
 	width: 32vw;
-	height: 70vh;
+	height: 32vw;
 }
 
 .research{
@@ -127,7 +136,7 @@ h2 {
 
 .interview{
 	width: auto;
-	height: 80vw;
+	height: 55vw;
 }
 
 .storyboard {
@@ -150,12 +159,12 @@ p {
 	font-size: 135%;
 }
 
-.imagebox2,
-.sketch,
-.image {
+.sketch {
 	display: inline-flex;
-	margin-left: 0%;
-	margin-right: 0%;
+	width: 45vw;
+	height: 35vh;
+	margin-right: 0.01vw;
+	
 }
 
 .imagebox {
@@ -170,23 +179,26 @@ p {
 	margin-left: 1px;
 	padding-top: 0%;
 	margin-top: 0%;
+	width: 55vw;
+	height: 40vw;
+	display: inline-block; 
+	word-wrap: break-word;
 }
 
 .sketchtext {
+	display: inline-block; 
+	word-wrap: break-word;
 	text-align: left;
+	width: 30vw;
 	margin-left: 0%;
 	padding-top: 0%;
 }
-/* 
-.context {
-	padding-top: 5%;
-} */
 
-.ending {
-	padding-bottom: 15vh;
-}
-
-.covid {
+/* .covid {
 	text-align: center;
 	padding-bottom: 5vh;
+} */
+
+.takeaway{
+	height: 22vw;
 }
