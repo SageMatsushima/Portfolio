@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>home</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="projects.css">
     <link href="https://fonts.googleapis.com/css?family=Exo 2" rel="stylesheet" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -13,7 +13,7 @@
         <div class="nav">
             <a href="./home.html" class="name">First Lastname</a>
             <a href="./projects.html">Projects</a>
-            <a href="./art/html">Art</a>
+            <a href="./art.html">Art</a>
             <a href="./resume.html">Resume</a>
             <a href="./contact.html">Contact</a>
         </div>
@@ -21,7 +21,7 @@
         <h2 class="title">Projects</h2>
 
         <div class="btn-group">
-            <h3 id="first">UI/UX</h3>
+            <h3 class="first">UI/UX</h3>
             <button onclick="location.href='./persona/persona.html'" type="button">Personas and Storyboards</button>
             <button onclick="location.href='./redesign/redesign.html'" type="button">Redesign<br><br></button>
             <button onclick="location.href='./abtesting/abtesting.html'" type="button">AB Testing<br><br></button>
@@ -30,25 +30,59 @@
         </div>
 
         <div class="btn-group">
-            <h3>Programming</h3>
-            <button onclick="location.href='./othello/othello.html'" type="button">Othello</button>
+            <h3 class="first">Programming</h3>
+            <button onclick="location.href='./othello/othello.html'" type="button">Othello<br><br></button>
             <button onclick="location.href='./tetris/tetris.html'" type="button">Tetris<br><br></button>
-            <button onclick="location.href='./abtesting/abtesting.html'" type="button">AB Testing<br><br></button>
-            <button onclick="location.href='./iterativeDesign/iterative.html'" type="button">Iterative
-                Design<br><br></button>
+            <button onclick="location.href='./seamcarve/seamcarve.html'" type="button">Seamcarve<br><br></button>
+            <button onclick="location.href='./heap/heap.html'" type="button">Heap<br><br></button>
+            <button onclick="location.href='./graph/graph.html'" type="button">Graph<br><br></button>
         </div>
 
         <div class="btn-group">
-            <h3>Game Design</h3>
+            <h3 class="first">Game Design</h3>
             <button>Turn'n Tail</button>
             <button>Romance Lance</button>
         </div>
 
     </div>
     <footer class="footer">
-        <!-- <div>
+        <div id="contact">
+            <div class="phone">
+                <div>
+                    <img src="phone.png" class="con" alt="phone" />
+                </div>
+                <div>
+                    <p class="in">
+                        (714) - 206 - 6372
+                    </p>
+                </div>
 
-        </div> -->
+            </div>
+            <div class="phone">
+                <div>
+                    <img src="mail.png" class="con" alt="mail" />
+                </div>
+                <div>
+                    <p class="in">
+                        sagematsushima@gmail.com
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div id="links">
+            <div>
+                <a href="https://www.instagram.com/matsushima_art/" target="_blank"><img src="instagram.png"
+                        id="instagram" alt="instagram" /></a>
+            </div>
+            <div>
+                <a href="https://github.com/SageMatsushima" target="_blank"><img src="git.png" id="git"
+                        alt="github" /></a>
+            </div>
+
+        </div>
     </footer>
 </body>
 

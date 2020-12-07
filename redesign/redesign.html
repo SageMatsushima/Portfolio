@@ -11,27 +11,36 @@
 </head>
 
 <body>
+    <div id="tabs">
+        <div class="tabs"><a href="#overview" class="tab">Overview</a></div>
+        <div class="tabs"><a href="#research" class="tab">Research</a></div>
+        <div class="tabs"><a href="#mockups" class="tab">Mockups</a></div>
+        <div class="tabs"><a href="#st" class="tab">Style Guide</a></div>
+        <div class="tabs"><a href="#takeaways" class="tab">Takeaways</a></div>
+    </div>
 
     <div id="body">
         <div class="nav">
             <a href="../home.html" class="name">First Lastname</a>
             <a href="../projects.html">Projects</a>
-            <a href="../art/html">Art</a>
+            <a href="../art.html">Art</a>
             <a href="./resume.html">Resume</a>
             <a href="../contact.html">Contact</a>
         </div>
 
         <h1>Redesign Website</h1>
         <div class="content">
-            <div class="overview">
+            <div id="overview">
                 <h3>Overview</h3>
                 <p class="over">
                     During my sophomore fall semester at Brown, my UI/UX class assigned us a project: pick a
-                    website that was accessible to the public but could be redesigned to increase usability.</p>
+                    website that was accessible to the public but could be <mark>redesigned to increase
+                        usability.</mark></p>
                 <div class="designs">
                     <div class="original">
                         <img src="original.png" class="graphic" alt="original website" />
-                        <button onclick="location.href='http://www.cafecup-hb.com/'" type="button">Original
+                        <button id="original" onclick="location.href='http://www.cafecup-hb.com/'"
+                            type="button">Original
                             Website</button>
                     </div>
                     <div class="web">
@@ -59,65 +68,65 @@
             </div>
         </div>
 
-
-
-
-        <div class="research">
+        <div id="research">
             <h3>Research</h3>
             <h3>Useability</h3>
             <p class="use">
-                The website does not have a cohesive layout; the important information is scattered throughout the page
-                in
+                The website has no cohesive layout; the important information is scattered
+                throughout the page in
                 random dividers varying in size. The navigation bar is also confusing because it's not in a traditional
-                places usually seen in websites. Additionally, the footer is missing the "menu" link and doesn't have
-                all
-                the components in the navigation bar. The photos are unappealing and scattered, the font is too small
-                and
-                has some inconsistent spacing so its hard to read making the site even more harder to use. Overall, it
-                feels
-                dated and the layout of the buttons and the pictures makes the website hard to use and navigate.
+                places usually seen in websites. Additionally, the footer is missing the "menu" link and
+                doesn't have
+                all the components in the navigation bar. <br>
+                <br>The photos are unappealing, the font is too small and has some inconsistent spacing.
+                Overall, it feels dated and the layout of the buttons and the pictures makes the website hard to
+                use and navigate.
             </p>
 
             <h3>Learnability</h3>
             <p class="learn">
-                This website is incredibly hard to learn. The small buttons in the lower right hand corners all lead to
+                This website is incredibly hard to learn. The small buttons in the lower right hand corners
+                are really
+                hard to even see. Plus, the hit boxes are only set to be
                 the
-                menu; however, it's really hard to even see at first glance. Plus, the hit boxes are only set to be the
                 small buttons so the user has to learn that they can't just click the picture itself. These small
                 inconsistent details make the website confusing and unappealing.
             </p>
 
             <h3>Memorability</h3>
             <p class="mem">
-                Overall, this page is very forgettable. There is nothing either interface-wise or even graphic-wise that
-                stands out or makes the user want to come back to the site more than once. In fact, the website might
-                actually make the café more unappealing and unappetizing due to the crude pictures and the disregard for
+                There is nothing either interface-wise or even graphic-wise that
+                stands out or makes the user want to come back to the site more than once. In fact, the website
+                actually makes the café more unappealing and unappetizing due to the crude pictures and the
+                disregard
+                for
                 the
-                appearance. This can potentially hurt business sales due to the first impressions and make the
+                appearance. This can potentially hurt business sales due to the first impressions and make
+                the
                 restaurant
                 feel as if they don't care.
             </p>
 
             <h3 class="sub">Accessibility</h3>
             <p class="acc">
-                Using <a href="https://wave.webaim.org/" class="link" target="_blank">WebAIM WAVE</a>, a website that
-                reads
-                a website and tells the programmer any accessibility concerns, the
-                program detected multiple errors both in the code and structural issues. For instance, there is 8
+                Using <mark><a href="https://wave.webaim.org/" class="link" target="_blank"
+                        style="text-decoration: none;">WebAIM WAVE</a></mark>, the
+                program detected multiple errors both in the code and structural issues. There are 8
                 redundant
-                links to the menu, no alternative text for users that see the pictures on their computer, and text that
+                links to the menu,no alternative text for users that see the pictures on their
+                computer, and text that
                 was
-                barely visible due to poor contrast between the two colors. Additionally, there were many instances of
-                large
-                text blocks and the page itself has no structure at all. Because of these factors, I believe that the
-                website could be redesigned to better optimize the structure and information on the page to help user
+                barely visible due to poor contrast between the two colors. Because of these factors, I
+                believe that the
+                website could be redesigned to better optimize the structure and information on the page to help
+                user
                 accessibility.
 
             </p>
         </div>
 
         <div>
-            <h3>Mockups</h3>
+            <h3 id="mockups">Mockups</h3>
             <h3>Low-fidelity Wireframes</h3>
             <h3 class="d">Desktop</h3>
             <div class="dwf">
@@ -126,24 +135,17 @@
                 </div>
                 <div class="dtext">
                     <p>
-                        First, I completely redesigned the layout of the website to make it more streamlines and
-                        readable
-                        for
-                        users. Instead of a static almost JPEG type webpage, I added a navigation bar in the header with
-                        clear
-                        access to the menu and the information about the website. I then wanted to make sure the
-                        pictures of
-                        the
-                        food were easily seen and more appealing by putting them right below the nav bar. <br> <br>
-                        In the original
-                        website, I saw that the description of the Cafe as a whole to be hidden due to the orginization
-                        so I
-                        increased the spacing of the dividers to make sure the user knew where the most important
+                        I completely redesigned the layout of the website to make it more streamlined and
+                        readable for users. I added a navigation bar in
+                        the header with clear access to the menu and the information about the website. I then wanted to
+                        make sure the pictures of the food were easily seen and more appealing by putting them right
+                        below the nav bar.
+                        <br> <br>
+                        I increased the spacing of the dividers to show where the most important
                         information
-                        was. Lastly, I made a footer at the bottom of the page to quickly access other media outlets
-                        quickly
-                        for
-                        users to find out reviews for the cafe.
+                        is. Lastly, I made a footer at the bottom of the page to quickly access other
+                        media outlets
+                        for users to find out reviews for the cafe.
                     </p>
                 </div>
             </div>
@@ -156,12 +158,12 @@
             </div>
             <div class="ptext">
                 <p>
-                    Like the desktop version, I kept the same properties and layout for: thepictures below the nav
+                    Like the desktop version, I kept the same properties and layout for: the pictures below the nav
                     bar, important information below, and the footer and its
                     social media elements. <br><br>
-                    However, I decided to make a dropdown menu to condense the navigation bar, keeping the font large
+                    I decided to make a dropdown menu to condense the navigation bar, keeping the font large
                     enough
-                    for the user. As a result, the user would still be able to access it at any time.
+                    for the user.
                     I also changed the description part to better fit a smaller, more narrow screen;
                     due to the nature of touch screen technology, the user can just scroll down instead of reading
                     side-to-side.
@@ -191,17 +193,12 @@
                 <div class="ddtext">
                     <p class="ttext">
                         For my hi-fi desktop mockup, I made an interactable navigation bar that links to the respective
-                        sites on
-                        he original website. The picture rotates every 5 seconds to a new photo of the food served at
-                        the
-                        location and can be clicked on to go to the menu. The user can also clearly see the description
-                        and
-                        history of the cafe and the information is split using a break line. <br> <br>
+                        sites on he original website. The picture rotates every 5 seconds to a new photo of the food
+                        served at the location and can be clicked on to go to the menu. <br>
+                        <br>
                         Below the break line, the important information is easily readable and the location and the map
-                        both
-                        link to google maps to the cafe as well. Lastly, the footer follows the user's scrolls so they
-                        can
-                        easily access the social media or yelp page for reviews.
+                        both link to google maps. The footer follows the user's scroll so
+                        they can easily access the social media or yelp page for reviews.
                     </p>
                 </div>
             </div>
@@ -214,18 +211,11 @@
                 <div class="ptext">
                     <p class="ttext">
                         Similar to my lo-fi mockups, I replaced the straight menu with a dropdown menu to save space on
-                        the
-                        smaller screens. Once clicked, the hamburger icon on the left creates the original menu without
-                        the
-                        name
-                        of the Cafe (see style guide). I also made the story description more linear and adjusted the
-                        font
-                        size
-                        and the grid sizes. <br><br>
+                        the smaller screens. Once clicked, the hamburger icon on the left creates the original menu
+                        without the name of the Cafe. I also made the story description more linear
+                        and adjusted the font size and the grid sizes. <br><br>
                         I also made the interface more interactive with hover response and direct links from the images
-                        to
-                        the
-                        sub-pages or websites associated.
+                        to the sub-pages or websites associated.
                     </p>
                     <h3 class="p">Phone</h3>
                     <p class="ttext">
@@ -259,28 +249,68 @@
             </p>
         </div>
 
-        <div class="takeaways">
+        <div id="takeaways">
             <h3>Takeaways</h3>
             <p class="ending">
                 From this project, I have learned that streamlined designs for websites with clear and recognizable
-                features
-                can
-                help the user understand the company as a whole. If websites are cluttered and confusing, users first
-                impression
-                can hinder sales or costumer satisfaction. The better a webpage is, the longer the user will stay on and
-                read
-                what you say. An enjoyable, clear interface will help the user gather the necessary information they
-                want
-                and
-                come back when they need to.
+                features can help the user understand the company as a whole. If websites are cluttered and confusing,
+                users first impression can hinder sales or costumer satisfaction. <mark>The better a webpage is, the
+                    longer
+                    the user will stay on and read what you say</mark>. An enjoyable, clear interface will help the user
+                gather the
+                necessary information they want and come back when they need to.
             </p>
+        </div>
+        <div id="gate">
+            <div>
+                <button type="button" onclick="location.href='#body'" id="top">Back to
+                    Top</button>
+            </div>
+            <div>
+                <button type="button" onclick="location.href='../projects.html'" id="back">Back to
+                    Projects</button>
+            </div>
+
         </div>
     </div>
     <footer class="footer">
-        <!-- <div>
-	
-			</div> -->
-    </footer>
+        <div id="contact">
+            <div class="phone">
+                <div>
+                    <img src="../phone.png" class="con" alt="phone" />
+                </div>
+                <div>
+                    <p class="in">
+                        (714) - 206 - 6372
+                    </p>
+                </div>
+
+            </div>
+            <div class="phone">
+                <div>
+                    <img src="../mail.png" class="con" alt="mail" />
+                </div>
+                <div>
+                    <p class="in">
+                        sagematsushima@gmail.com
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div id="links">
+            <div>
+                <a href="https://www.instagram.com/matsushima_art/" target="_blank"><img src="../instagram.png"
+                        id="instagram" alt="instagram" /></a>
+            </div>
+            <div>
+                <a href="https://github.com/SageMatsushima" target="_blank"><img src="../git.png" id="git"
+                        alt="github" /></a>
+            </div>
+
+        </div>
 </body>
 
 </html>

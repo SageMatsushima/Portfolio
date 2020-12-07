@@ -14,20 +14,22 @@ body {
 	height: auto;
 	width: auto;
 	align-items: center;
+	margin: 0;
 }
 
 #body{
-	padding-left: 12vw;
-	padding-right: 12vw;
+	padding-left: 13vw;
+	padding-right: 13vw;
 }
 
 .name{
-	margin-right: 15vw;
+	margin-right: 14vw;
 }
 
 .nav {
 	height: 4.75vw;
 	overflow: hidden;
+	margin-top: 2vw;
   }
   
   .nav a {
@@ -43,6 +45,7 @@ body {
   .nav a:hover {
 	background-color: #EDBFAF;
 	color: black;
+	border-radius: 1vw;
   }
 
 .content{
@@ -57,7 +60,7 @@ body {
 	  height: 5vw;
 }
 
-.overview{
+#overview{
 	margin-right: 1.5vw;
 
 }
@@ -100,7 +103,7 @@ body {
 	margin-left: 2.5vw;
 }
 
-button {
+#original {
 	background-color: #71D4C0;
 	border: none;
 	border-radius: .25vw;
@@ -168,9 +171,9 @@ h4{
 	margin-top: 5vw;
 }
 
-.research{
+#research{
 	width: auto;
-	height: 30vw;
+	height: 80vw;
 	margin-top: 7vw;
 }
 
@@ -289,6 +292,7 @@ p {
 
 #h{
 	height: 110vw;
+	margin-top: 9vw;
 }
 
 #title{
@@ -332,9 +336,10 @@ p {
 	height: 5vw;
 }
 
-.takeaways {
+#takeaways {
 	margin-top: 5vw;
 	height: 15vw;
+	padding-bottom: 2vw;
 }
 
 .use{
@@ -355,4 +360,103 @@ p {
 
   #st{
 	  height: 75vw;
+  }
+
+  
+#contact{
+	margin-left: 35%;
+	height: 3vw;
+}
+
+.con{
+	width: 2vw;
+	height: 2vw;
+	margin-top: 1vw;
+}
+
+.in{
+	font-size: 1.25vw;
+	padding-left: .5vw;
+	height: 3vw;
+}
+
+.phone{
+	display: inline-flex;
+	height: 4vw;
+}
+
+#links{
+	display: inline-flex;
+	margin-left: 45%;
+	height: 4vw;
+}
+
+#instagram{
+	width: 4vw;
+	height: 4vw;
+	margin-top: .75vw;
+	padding-right: 2vw;
+}
+
+#git{
+	width: 3.25vw;
+	height: 3.25vw;
+	margin-top: 1vw;
+}
+
+#back{
+	margin-left: 10vw;
+	width: 15vw;
+}
+
+#gate{
+	display: inline-flex;
+}
+
+#top{
+	margin-left: 15vw;
+	width: 15vw;
+}
+
+button {
+	background-color: #71D4C0;
+	border: none;
+	border-radius: .25vw;
+	color: white;
+	cursor: pointer;
+	margin-top: 1vw;
+	font-size: 1.25vw;
+	width: 15vw;
+	height: 5vw;
+	margin-left: 20vw;
+	text-align: center;
+  }
+  
+  button:hover {
+	background-color: #EDBFAF;
+  }
+
+  #tabs{
+	float: right;
+	overflow: visible;
+	background-color:#71D4C0;
+	border-radius: 1vw;
+	width: 9vw;
+	height: 18vw;
+	margin-top: 17vw;
+	margin-left: 88%;
+	position: fixed;
+
+  }
+
+  .tabs{
+	  margin-bottom: 2vw;
+	  padding-left: 1.5vw;
+	  padding-right: 1.5vw;
+  }
+
+  .tab{
+	  font-size: 1.25vw;
+	  text-decoration: none;
+	  color: white;
   }

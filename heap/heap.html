@@ -3,73 +3,127 @@
 <html>
 
 <head>
-    <title>heap</title>
-    <link rel="stylesheet" href="tetris.css">
+    <title>Heap</title>
+    <link rel="stylesheet" href="heap.css">
     <link href="https://fonts.googleapis.com/css?family=Exo 2" rel="stylesheet" />
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 
 <body>
-    <div class="nav">
-        <a href="../home.html" class="name">First Lastname</a>
-        <a href="../projects.html">Projects</a>
-        <a href="../art/html">Art</a>
-        <a href="../resume.html">Resume</a>
-        <a href="../contact.html">Contact</a>
-    </div>
 
-    <h1>Heap</h1>
-    <div class="content" style="background-color: red;">
-        <div class="overview">
-            <h3>Overview</h3>
-            <p>During my freshman spring semester at Brown, my Intro to Algorithms and Data Structures class assigned us
-                a project that had us implement a priority queue based on the heap data structure, but note that various
-                forms of priority queues are common throughout society. It had us code a linked binary tree filled with
-                left completeness and could add, remove, and adjust the tree at any given moment.
-            </p>
+    <div id="body">
+        <div class="nav">
+            <a href="../home.html" class="name">First Lastname</a>
+            <a href="../projects.html">Projects</a>
+            <a href="../art.html">Art</a>
+            <a href="../resume.html">Resume</a>
+            <a href="../contact.html">Contact</a>
         </div>
-        <div class="tools" style="background-color: aliceblue;">
-            <h4>Tools Used</h4>
-            <p class="assets">
-                Java<br>
-                Eclipse
-            </p>
-            <h4>Categories</h4>
-            <p class="assets">
-                Programming<br>
-                JUnit Testing<br>
-                Algorithms/Data<br>
-                Structures<br>
-            </p>
+
+        <h1>Heap</h1>
+        <div class="content">
+            <div class="overview">
+                <h3>Overview</h3>
+                <p id="over">
+                    ​During my freshman spring semester at Brown, my Intro to Algorithms and Data Structures class
+                    assigned us a project that had us <mark>implement a priority queue</mark> based on the heap data
+                    structure, and
+                    note that various forms of priority queues are common throughout society. It had us code a
+                    <mark>linked
+                        binary tree</mark> filled with <mark>left completeness</mark> and could add, remove, and adjust
+                    the tree at any given
+                    moment.
+                </p>
+            </div>
+
+            <div class="tools">
+                <h4>Tools Used</h4>
+                <p class="assets">
+                    Java<br>
+                    Eclipse
+                </p>
+                <h4>Categories</h4>
+                <p class="assets">
+                    Programming<br>
+                    JUnit Testing<br>
+                    Algorithms/Data<br>
+                    Data Structures
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div>
-        <img src="Personas1.jpg" class="image2" alt="Tetris gif" />
-    </div>
+        <div class="he">
+            <img src="heap.gif" class="heap" alt="heap gif" />
+        </div>
 
-    <div class="takeaway" style="background-color: rebeccapurple;">
-        <h3>Takeaways</h3>
-        <p>
+
+        <h2 class="takeaways">Takeaways</h2>
+        <p class="ending">
             Heap was a difficult project for me in various ways. First off, it was hard to connect the concept of
             priority queues with code. Although I understood the basic concept, the implementation of the algorithm
             itself was difficult to grasp. Furthermore, it was hard to make the linked binary tree left complete and
             keep it that way. For instance, when you remove a node, you have to make sure that the tree remains left
-            complete; therefore you have to calculate the values for each node several times. Overall I found that
-            although this project was difficult, it also enlightened me to the reality of the world and its priority
-            queue implementations. A major example is the US Government’s system to process visas and green cards and
-            how they prioritize cases. This is just one example of the prevalence of this type of data structure and the
-            importance of them in the real world.
+            complete; therefore you have to calculate the values for each node several times. <br>
+            <br>
+            Overall I found that although this project was difficult, it also enlightened me to the reality of the world
+            and its priority queue implementations. <mark>A major example is the US Government’s system to process visas
+                and
+                green cards and how they prioritize cases.</mark> This is just one example of the prevalence of this
+            type of data
+            structure and the importance of them in the real world.
         </p>
+        <div id="gate">
+            <div>
+                <button type="button" onclick="location.href='#body'" id="top">Back to
+                    Top</button>
+            </div>
+            <div>
+                <button type="button" onclick="location.href='../projects.html'" id="back">Back to
+                    Projects</button>
+            </div>
+
+        </div>
     </div>
 
     <footer class="footer">
-        <!-- <div>
+        <div id="contact">
+            <div class="phone">
+                <div>
+                    <img src="../phone.png" class="con" alt="phone" />
+                </div>
+                <div>
+                    <p class="in">
+                        (714) - 206 - 6372
+                    </p>
+                </div>
 
-        </div> -->
-    </footer>
+            </div>
+            <div class="phone">
+                <div>
+                    <img src="../mail.png" class="con" alt="mail" />
+                </div>
+                <div>
+                    <p class="in">
+                        sagematsushima@gmail.com
+                    </p>
+                </div>
 
+
+            </div>
+
+        </div>
+        <div id="links">
+            <div>
+                <a href="https://www.instagram.com/matsushima_art/" target="_blank"><img src="../instagram.png"
+                        id="instagram" alt="instagram" /></a>
+            </div>
+            <div>
+                <a href="https://github.com/SageMatsushima" target="_blank"><img src="../git.png" id="git"
+                        alt="github" /></a>
+            </div>
+
+        </div>
 </body>
 
 </html>

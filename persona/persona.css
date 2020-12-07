@@ -14,20 +14,22 @@ body {
 	height: auto;
 	width: auto;
 	align-items: center;
+	margin: 0;
 }
 
 #body{
-	padding-left: 12vw;
-	padding-right: 12vw;
+	padding-left: 13vw;
+	padding-right: 13vw;
 }
 
 .name{
-	margin-right: 15vw;
+	margin-right: 14vw;
 }
 
 .nav {
 	height: 4.75vw;
 	overflow: hidden;
+	margin-top: 2vw;
   }
   
   .nav a {
@@ -43,6 +45,7 @@ body {
   .nav a:hover {
 	background-color: #EDBFAF;
 	color: black;
+	border-radius: 1vw;
   }
 
 .content{
@@ -53,14 +56,14 @@ body {
 	height: 25vw;
 }
 
-.overview{
+#overview{
 	margin-right: 1.5vw;
 
 }
 
 p{
 	height: 20vw;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	padding-left: 4vw;
 	padding-right: 2vw;
 }
@@ -106,6 +109,7 @@ h3 {
 
 h4{
 	font-size: 1.5vw;
+	margin-bottom: 0;
 }
 
 #inter{
@@ -113,12 +117,6 @@ h4{
 	display: inline-flex;
 	width: 100%;
 }
-
-/* .Research {
-	text-align: center;
-	padding-top: 5%;
-} */
-
 
 .image1 {
 	margin-top: 1vw;
@@ -129,14 +127,14 @@ h4{
 
 .image2,
 .image3 {
-	padding-top: 2vh;
+	margin-top: 0vh;
 	margin-left: 3vw;
 	margin-right: 0.01vw;
 	width: 32vw;
 	height: 32vw;
 }
 
-.research{
+#research{
 	width: auto;
 	height: 30vw;
 	margin-top: 7vw;
@@ -144,7 +142,7 @@ h4{
 
 .interview{
 	width: auto;
-	height: 55vw;
+	height: 42vw;
 }
 
 .storyboard {
@@ -162,11 +160,6 @@ h4{
 	list-style-position: inside;
 }
 
-p {
-	text-align: left;
-	font-size: 135%;
-}
-
 .sketch {
 	display: inline-flex;
 	width: 45vw;
@@ -182,12 +175,13 @@ p {
 	margin-right: 0%;
 	padding-bottom: 2vw;
 	align-items: center;
+	height: 40vw;
 }
 
 .text {
 	text-align: left;
 	margin-left: 1px;
-	padding-top: 0%;
+	padding-top: 2vw;
 	margin-top: 0%;
 	width: 55vw;
 	height: 40vw;
@@ -209,7 +203,107 @@ p {
 	padding-bottom: 5vh;
 }
 
-.takeaway{
-	height: 19vw;
+#takeaway{
+	height: 15vw;
 	margin-top: 7vw;
+	padding-bottom: 2vw;
 }
+
+
+#contact{
+	margin-left: 35%;
+	height: 3vw;
+}
+
+.con{
+	width: 2vw;
+	height: 2vw;
+	margin-top: 1vw;
+}
+
+.in{
+	font-size: 1.25vw;
+	padding-left: .5vw;
+	height: 3vw;
+}
+
+.phone{
+	display: inline-flex;
+	height: 4vw;
+}
+
+#links{
+	display: inline-flex;
+	margin-left: 45%;
+	height: 4vw;
+}
+
+#instagram{
+	width: 4vw;
+	height: 4vw;
+	margin-top: .75vw;
+	padding-right: 2vw;
+}
+
+#git{
+	width: 3.25vw;
+	height: 3.25vw;
+	margin-top: 1vw;
+}
+
+#back{
+	margin-left: 10vw;
+	width: 15vw;
+}
+
+#gate{
+	display: inline-flex;
+}
+
+#top{
+	margin-left: 15vw;
+	width: 15vw;
+}
+
+button {
+	background-color: #71D4C0;
+	border: none;
+	border-radius: .25vw;
+	color: white;
+	cursor: pointer;
+	margin-top: 1vw;
+	font-size: 1.25vw;
+	width: 15vw;
+	height: 5vw;
+	margin-left: 20vw;
+	text-align: center;
+  }
+  
+  button:hover {
+	background-color: #EDBFAF;
+  }
+
+  #tabs{
+	float: right;
+	overflow: visible;
+	background-color:#71D4C0;
+	border-radius: 1vw;
+	width: 9vw;
+	height: 16vw;
+	margin-top: 17vw;
+	margin-left: 88%;
+	position: fixed;
+
+  }
+
+  .tabs{
+	  margin-bottom: 2vw;
+	  padding-left: 1.5vw;
+	  padding-right: 1.5vw;
+  }
+
+  .tab{
+	  font-size: 1.25vw;
+	  text-decoration: none;
+	  color: white;
+  }

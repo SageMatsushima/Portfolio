@@ -3,43 +3,82 @@
 <html>
 
 <head>
-    <title>home</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Contact</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="contact.css">
     <link href="https://fonts.googleapis.com/css?family=Exo 2" rel="stylesheet" />
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 
 <body>
-    <div class="nav">
-        <a href="#" class="name">First Lastname</a>
-        <a href="">Projects</a>
-        <a href="">Art</a>
-        <a href="">Resume</a>
-        <a href="">Contact</a>
-    </div>
-
-    <div class="content">
-        <div class="image">
-            <img src="#" class="map" alt="location of Cafe Cup" />
+    <div id="body">
+        <div class="nav">
+            <a href="./home.html" class="name">First Lastname</a>
+            <a href="./projects.html">Projects</a>
+            <a href="./art.html">Art</a>
+            <a href="./resume.html">Resume</a>
+            <a href="./contact.html">Contact</a>
         </div>
-        <div class="about">
-            <h2>Hello, I'm Sage!</h2>
-            <p>
-                I'm Sage Matsushima, an undergraduate studying <mark>Computer Science and Visual Arts</mark> at Brown
-                University
-                interested in <mark>UI/UX design.</mark>
-            </p>
+
+        <h2>Contact</h2>
+
+        <div class="container">
+            <form action="mailto:sagematsushima@gmail.com">
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Subject</label>
+                <input type="text" id="lname" name="lastname" placeholder="Subject..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
         </div>
+
+
     </div>
-
-
     <footer class="footer">
-        <!-- <div>
+        <div id="contact">
+            <div class="phone">
+                <div>
+                    <img src="phone.png" class="con" alt="phone" />
+                </div>
+                <div>
+                    <p class="in">
+                        (714) - 206 - 6372
+                    </p>
+                </div>
 
-        </div> -->
+            </div>
+            <div class="phone">
+                <div>
+                    <img src="mail.png" class="con" alt="mail" />
+                </div>
+                <div>
+                    <p class="in">
+                        sagematsushima@gmail.com
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div id="links">
+            <div>
+                <a href="https://www.instagram.com/matsushima_art/" target="_blank"><img src="instagram.png"
+                        id="instagram" alt="instagram" /></a>
+            </div>
+            <div>
+                <a href="https://github.com/SageMatsushima" target="_blank"><img src="git.png" id="git"
+                        alt="github" /></a>
+            </div>
+
+        </div>
     </footer>
-
 </body>
 
 </html>

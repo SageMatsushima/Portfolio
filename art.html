@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Art</title>
+    <link rel="stylesheet" href="art.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo 2" rel="stylesheet" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body>
+    <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+    <div id="body">
+        <div class="nav">
+            <a href="./home.html" class="name">First Lastname</a>
+            <a href="./projects.html">Projects</a>
+            <a href="./art.html">Art</a>
+            <a href="./resume.html">Resume</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+
+        <h2 class="title">Art</h2>
+        <div class="row">
+            <div class="column">
+                <img id="sketch" src="./drawings/Monster.jpg" style="width:100%" onclick="openModal();currentSlide(1)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="sketch" src="./drawings/softball.jpg" style="width:100%" onclick="openModal();currentSlide(2)"
+                    class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="sketch" src="./drawings/happiness.jpg" style="width:100%" onclick="openModal();currentSlide(3)"
+                    class="hover-shadow cursor">
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <img src="./drawings/Monster.jpg" style="width: 100%">
+                </div>
+
+                <div class="mySlides">
+                    <img src="./drawings/softball.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <img src="./drawings/happiness.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+        <!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-87e3d8fb-5466-484d-a959-bdc6cd90e8f8"></div> -->
+
+    </div>
+    <footer class="footer">
+        <div id="contact">
+            <div class="phone">
+                <div>
+                    <img src="phone.png" class="con" alt="phone" />
+                </div>
+                <div>
+                    <p class="in">
+                        (714) - 206 - 6372
+                    </p>
+                </div>
+
+            </div>
+            <div class="phone">
+                <div>
+                    <img src="mail.png" class="con" alt="mail" />
+                </div>
+                <div>
+                    <p class="in">
+                        sagematsushima@gmail.com
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div id="links">
+            <div>
+                <a href="https://www.instagram.com/matsushima_art/" target="_blank"><img src="instagram.png"
+                        id="instagram" alt="instagram" /></a>
+            </div>
+            <div>
+                <a href="https://github.com/SageMatsushima" target="_blank"><img src="git.png" id="git"
+                        alt="github" /></a>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

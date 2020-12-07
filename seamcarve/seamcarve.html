@@ -3,72 +3,120 @@
 <html>
 
 <head>
-    <title>seamcarve</title>
-    <link rel="stylesheet" href="tetris.css">
+    <title>SeamCarve</title>
+    <link rel="stylesheet" href="seamcarve.css">
     <link href="https://fonts.googleapis.com/css?family=Exo 2" rel="stylesheet" />
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 
 <body>
-    <div class="nav">
-        <a href="../home.html" class="name">First Lastname</a>
-        <a href="../projects.html">Projects</a>
-        <a href="../art/html">Art</a>
-        <a href="../resume.html">Resume</a>
-        <a href="../contact.html">Contact</a>
-    </div>
-
-    <h1>Seamcarve</h1>
-    <div class="content" style="background-color: red;">
-        <div class="overview">
-            <h3>Overview</h3>
-            <p>During my freshman spring semester at Brown, my Intro to Algorithms and Data Structures class assigned us
-                a project that had us calculate the least important pixels in an image. By calculating the least
-                important pixels, we could then create a "seam" of unimportant pixels and remove them from the image.
-                This is an easy way to resize a picture keeping the most "important" pixels within it. Pixels that are
-                very different from their neighbors should have high importance, and pixels that are similar in color to
-                their neighbors should have low importance. As a result, the image ends up keeping the significant color
-                changes and discarding similar pixels to save space.
-            </p>
+    <div id="body">
+        <div class="nav">
+            <a href="../home.html" class="name">First Lastname</a>
+            <a href="../projects.html">Projects</a>
+            <a href="../art.html">Art</a>
+            <a href="../resume.html">Resume</a>
+            <a href="../contact.html">Contact</a>
         </div>
-        <div class="tools" style="background-color: aliceblue;">
-            <h4>Tools Used</h4>
-            <p class="assets">
-                Java<br>
-                Eclipse
-            </p>
-            <h4>Categories</h4>
-            <p class="assets">
-                Programming<br>
-                Pixel Recognition<br>
-                Algorithms/Data<br>
-                Structures<br>
-            </p>
+
+        <h1>SeamCarve</h1>
+        <div class="content">
+            <div class="overview">
+                <h3>Overview</h3>
+                <p id="over">
+                    ​During my freshman spring semester at Brown, my Intro to Algorithms and Data Structures class
+                    assigned us a project that had us <mark>calculate the least important pixels in an image.</mark> By
+                    calculating
+                    the least important pixels, we could then create a "seam" of unimportant pixels and remove them from
+                    the image. This is an easy way to resize a picture keeping the most "important" pixels within it.
+                    Pixels that are very different from their neighbors should have high importance, and pixels that are
+                    similar in color to their neighbors should have low importance. As a result, the image ends up
+                    keeping the significant color changes and discarding similar pixels to save space.
+                </p>
+            </div>
+
+            <div class="tools">
+                <h4>Tools Used</h4>
+                <p class="assets">
+                    Java<br>
+                    Eclipse
+                </p>
+                <h4>Categories</h4>
+                <p class="assets">
+                    Programming<br>
+                    Pixel Recognition<br>
+                    Algorithms/Data<br>
+                    Data Structures
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div>
-        <img src="Personas1.jpg" class="image2" alt="Tetris gif" />
-    </div>
+        <div>
+            <img src="SeamCarve.gif" class="seamcarve" alt="seamcarve gif" />
+        </div>
 
-    <div class="takeaway" style="background-color: rebeccapurple;">
-        <h3>Takeaways</h3>
-        <p>
-            Seamcarve really opened my eyes to the beginnings of image manipulation and distortion. Even through the
+
+        <h2 class="takeaways">Takeaways</h2>
+        <p class="ending">
+            Seamcarve really opened my eyes to the beginnings of <mark>image manipulation and distortion.</mark> Even
+            through the
             calculations and algorithms used for this program were fairly simple, you can clearly see the major impact
             that it has on an image and its outcome. Overall, it helped me question the question behind images and their
             reliability; if I could code a simple program that took out "unimportant" pixels with little disturbance,
-            what can other computer science engineers do with images that I am unaware of?
+            what can other computer science engineers do with images that I am unaware of? 
         </p>
+        <div id="gate">
+            <div>
+                <button type="button" onclick="location.href='#body'" id="top">Back to
+                    Top</button>
+            </div>
+            <div>
+                <button type="button" onclick="location.href='../projects.html'" id="back">Back to
+                    Projects</button>
+            </div>
+
+        </div>
     </div>
 
     <footer class="footer">
-        <!-- <div>
+        <div id="contact">
+            <div class="phone">
+                <div>
+                    <img src="../phone.png" class="con" alt="phone" />
+                </div>
+                <div>
+                    <p class="in">
+                        (714) - 206 - 6372
+                    </p>
+                </div>
 
-        </div> -->
-    </footer>
+            </div>
+            <div class="phone">
+                <div>
+                    <img src="../mail.png" class="con" alt="mail" />
+                </div>
+                <div>
+                    <p class="in">
+                        sagematsushima@gmail.com
+                    </p>
+                </div>
 
+
+            </div>
+
+        </div>
+        <div id="links">
+            <div>
+                <a href="https://www.instagram.com/matsushima_art/" target="_blank"><img src="../instagram.png"
+                        id="instagram" alt="instagram" /></a>
+            </div>
+            <div>
+                <a href="https://github.com/SageMatsushima" target="_blank"><img src="../git.png" id="git"
+                        alt="github" /></a>
+            </div>
+
+        </div>
 </body>
 
 </html>

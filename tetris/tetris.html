@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>AB Testing</title>
+    <title>Tetris</title>
     <link rel="stylesheet" href="tetris.css">
     <link href="https://fonts.googleapis.com/css?family=Exo 2" rel="stylesheet" />
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
@@ -15,18 +15,19 @@
         <div class="nav">
             <a href="../home.html" class="name">First Lastname</a>
             <a href="../projects.html">Projects</a>
-            <a href="../art/html">Art</a>
+            <a href="../art.html">Art</a>
             <a href="../resume.html">Resume</a>
             <a href="../contact.html">Contact</a>
         </div>
 
-        <h1>AB Testing</h1>
+        <h1>Tetris</h1>
         <div class="content">
             <div class="overview">
                 <h3>Overview</h3>
                 <p id="over">
                     ​During my freshman fall semester at Brown, my Intro to Computer Science class assigned us a project
-                    that utilized timelines in Eclipse and animation. As a result, we had to code the popular game
+                    that utilized <mark>timelines in Eclipse and animation.</mark> As a result, we had to code the
+                    popular game
                     Tetris along with its rules: when a row is filled clear it, the game is over when you reach the top,
                     etc. This project helped me understand the implementation and use of timelines in computer science
                     as well as using cases in Java to create the rules and shapes of the game.
@@ -48,10 +49,7 @@
         </div>
 
         <div>
-            <h3>Infographic</h3>
-            <div class="info">
-                <img src="info.png" class="graphic" alt="Infographic" />
-            </div>
+            <img src="tetris.gif" class="tetris" alt="tetris gif" />
         </div>
 
 
@@ -62,12 +60,57 @@
             me how enjoyable coding can be for games and design. Because of this, I decided to look further into design
             and the creation of game development. 
         </p>
+        <div id="gate">
+            <div>
+                <button type="button" onclick="location.href='#body'" id="top">Back to
+                    Top</button>
+            </div>
+            <div>
+                <button type="button" onclick="location.href='../projects.html'" id="back">Back to
+                    Projects</button>
+            </div>
+
+        </div>
     </div>
 
     <footer class="footer">
-        <!-- <div>
+        <div id="contact">
+            <div class="phone">
+                <div>
+                    <img src="../phone.png" class="con" alt="phone" />
+                </div>
+                <div>
+                    <p class="in">
+                        (714) - 206 - 6372
+                    </p>
+                </div>
 
-        </div> -->
+            </div>
+            <div class="phone">
+                <div>
+                    <img src="../mail.png" class="con" alt="mail" />
+                </div>
+                <div>
+                    <p class="in">
+                        sagematsushima@gmail.com
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div id="links">
+            <div>
+                <a href="https://www.instagram.com/matsushima_art/" target="_blank"><img src="../instagram.png"
+                        id="instagram" alt="instagram" /></a>
+            </div>
+            <div>
+                <a href="https://github.com/SageMatsushima" target="_blank"><img src="../git.png" id="git"
+                        alt="github" /></a>
+            </div>
+
+        </div>
     </footer>
 </body>
 

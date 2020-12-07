@@ -2,32 +2,33 @@ html{
 	margin: 0;
 	width: 100%;
 	height: 100%;
+	
 }
 
 body {
 	font-family: "Exo 2";
 	background-color: #E6FFFA;
 	color: black;
-	/* margin-left: 3.5vw;
-	margin-right: 3.5vw; */
 	text-align: left;
-	font-size: 1.5vw;
-	height: 100%;
+	height: auto;
 	width: auto;
-	position: relative;
+	align-items: center;
+	margin: 0;
 }
 
-
+#body{
+	padding-left: 13vw;
+	padding-right: 13vw;
+}
 
 .name{
-	margin-right: 20vw;
+	margin-right: 14vw;
 }
 
 .nav {
-	/* background-color: #71D4C0; */
 	height: 4.75vw;
 	overflow: hidden;
-	width: 100%;
+	margin-top: 2vw;
   }
   
   .nav a {
@@ -36,60 +37,42 @@ body {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 2.5vw;
-	margin-left: 2.5vw;
-	border-radius: .25vw;
+	font-size: 2.25vw;
+	margin-left: 1vw;
   }
   
   .nav a:hover {
 	background-color: #EDBFAF;
 	color: black;
-	border-radius: .25vw;
-  }
-
-.content{
-	/* background-color: #724caf; */
-	display: flex;
-	justify-content: center;
-	/* align-items: center; */
-	margin-top: 3vw;
-	width: 100%;
-	height: 20vw;
-}
-.image{
-	background-color: #af4ca2;
 	border-radius: 1vw;
-	align-items: center;
-	width: 22vw;
-	height: 22vw;
-	border-radius: 29vw;
-	display: inline-flex;
-	/* margin-left: 3vw; */
-	margin-right: 0%;
-	margin-top: 3vw;
   }
 
-.about{
-	/* background-color: #a5af4c; */
-	text-align: left;
-	padding-top: 0%;
-	width: 40vw;
-	margin-left: 2vw;
-	height: 20vw;
-  }
+h1 {
+	text-align: center;
+	font-size: 2.5vw;
+	padding: 2.5vw;
+	padding-bottom: 1vw;
+}
 
-h2{
-	height: 5vw;
-	font-size: 3.5vw;
+h3 {
 	padding-left: 4vw;
-	margin-top: 1vw;
-	margin-bottom: 0;
+	padding-top: 0;
+	font-size: 1.75vw;
+}
+
+h4{
+	font-size: 1.5vw;
 }
 
 p{
-	height: 20vw;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	padding-left: 4vw;
+	padding-right: 2vw;
+}
+
+li{
+	font-size: 1.5vw;
+	padding-left: 2vw;
 	padding-right: 2vw;
 }
 
@@ -132,3 +115,117 @@ footer{
 	height: 8vw;
 }
 
+.tools{
+	float: right;
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	margin-top: 3vw;
+	width: 100%;
+	height: 23vw;
+	margin-bottom: 1.5vw;
+}
+
+.overview{
+	height: 20vw;
+	width: 100%;
+}
+
+#over{
+	height: 12vw;
+}
+
+.assets{
+	height: 5vw;
+	padding-left: 2vw;
+	width: 11vw;
+}
+
+.ending {
+	padding-bottom: 2vw;
+}
+
+.takeaways {
+	padding-top: 5vw;
+}
+
+.seamcarve{
+	margin-left: 22%;
+	margin-top: 5vw;
+}
+
+
+#contact{
+	margin-left: 35%;
+	height: 3vw;
+}
+
+.con{
+	width: 2vw;
+	height: 2vw;
+	margin-top: 1vw;
+}
+
+.in{
+	font-size: 1.25vw;
+	padding-left: .5vw;
+	height: 3vw;
+}
+
+.phone{
+	display: inline-flex;
+	height: 4vw;
+}
+
+#links{
+	display: inline-flex;
+	margin-left: 45%;
+	height: 4vw;
+}
+
+#instagram{
+	width: 4vw;
+	height: 4vw;
+	margin-top: .75vw;
+	padding-right: 2vw;
+}
+
+#git{
+	width: 3.25vw;
+	height: 3.25vw;
+	margin-top: 1vw;
+}
+
+#back{
+	margin-left: 10vw;
+	width: 15vw;
+}
+
+#gate{
+	display: inline-flex;
+}
+
+#top{
+	margin-left: 15vw;
+	width: 15vw;
+}
+
+button {
+	background-color: #71D4C0;
+	border: none;
+	border-radius: .25vw;
+	color: white;
+	cursor: pointer;
+	margin-top: 1vw;
+	font-size: 1.25vw;
+	width: 15vw;
+	height: 5vw;
+	margin-left: 20vw;
+	text-align: center;
+  }
+  
+  button:hover {
+	background-color: #EDBFAF;
+  }
