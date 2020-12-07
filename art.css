@@ -28,7 +28,7 @@ body {
 .nav {
 	height: 4.75vw;
 	margin-top: 2vw;
-	overflow: hidden;
+	overflow: visible;
   }
   
   .nav a {
